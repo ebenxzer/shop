@@ -760,9 +760,9 @@ input[type="checkbox"] {
 
 
 
-/* MEDIA QUERIES ––– MEDIA QUERIES ––– MEDIA QUERIES */
+/* MEDIA QUERIES ––– MEDIA QUERIES ––– MEDIA QUERIES ––– MEDIA QUERIES ––– MEDIA QUERIES ––– MEDIA QUERIES ––– MEDIA QUERIES */
 
-/* SMALL DEVICES  */
+/* SMALL DEVICES SMALL DEVICES SMALL DEVICES */
 @media (max-width: 767px) {
 	/* spacing */
 
@@ -785,6 +785,10 @@ input[type="checkbox"] {
 
 	.m-calc {
 		margin: initial !important;
+	}
+
+	.ms {
+		margin: 0 -16px !important;
 	}
 
 	.mt-e {
@@ -938,7 +942,7 @@ input[type="checkbox"] {
 }
 
 
-/* BIG DEVICES */
+/* BIG DEVICES BIG DEVICES BIG DEVICES BIG DEVICES BIG DEVICES BIG DEVICES */
 @media (min-width: 768px) {
 	/* spacing */
 	.ptn {
