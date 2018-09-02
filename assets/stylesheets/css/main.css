@@ -5,7 +5,7 @@
     "Droid Sans", "Helvetica Neue", sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	letter-spacing: 0.04em;
+	letter-spacing: 0.02em;
 	line-height: 1.25;
 	margin: 0 !important;
 	will-change: padding;
@@ -765,18 +765,17 @@ input[type="checkbox"] {
 /* SMALL DEVICES SMALL DEVICES SMALL DEVICES */
 @media (max-width: 767px) {
 	/* spacing */
+	#ebby-des {
+		padding-left: 0px;
+		padding-right: 0px;
+	}
 
-	.top-area {
-		justify-content: space-between;
+	#first-link {
+		padding-left: 0 !important;
 	}
 
 	.footy {
 		margin-bottom: 48px !important;
-	}
-
-	#ebby-des {
-		padding-left: 0px;
-		padding-right: 0px;
 	}
 
 	.mb {
@@ -799,7 +798,7 @@ input[type="checkbox"] {
 		padding-bottom: 16px;
 	}
 
-	.ptb-e {
+	.ptb-e, .pto-e {
 		padding: 16px 0;
 	}
 
@@ -823,12 +822,12 @@ input[type="checkbox"] {
 		padding: inherit;
 	}
 
-	#first-link {
-		padding-left: 0 !important;
-	}
-
 	.recommended {
 		padding: 40px 16px;
+	}
+
+	.top-area {
+		justify-content: space-between;
 	}
 
 
@@ -870,6 +869,14 @@ input[type="checkbox"] {
 	/* images */
 	.thumbnail {
 		border: none;
+	}
+
+	.thumbnail-top-round {
+		border-radius: 0;
+	}
+
+	.thumbnail-bottom-round {
+		border-radius: 0;
 	}
 
 	/* navigation */
